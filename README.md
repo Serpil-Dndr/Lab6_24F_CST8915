@@ -2,6 +2,9 @@
 
 Welcome to Lab 6 of the **CST8915 Full-stack Cloud-native Development** course. In this lab, you will deploy the [**Algonquin Pet Store**](https://github.com/ramymohamed10/algonquin-pet-store) application to **Azure Kubernetes Service (AKS)**. You will create an AKS cluster, deploy the application using a provided YAML file, and expose the services for external access.
 
+> **Note:** This lab will incur an approximate cost of $3 to your Azure credit. Be sure to clean up your resources after completing the lab to avoid additional charges.
+
+
 ---
 ### What is Azure Kubernetes Service (AKS)?
 
@@ -155,6 +158,21 @@ In this lab, you’ll gain hands-on experience deploying microservices to AKS, c
       - Use the following credentials to log in:
         - Username: myuser
         - Password: mypassword
+7. Clean Up Kubernetes Resources:
+- In this step, use the K8s deployment YAML file provided: `.
+   - Open the terminal and navigate to the `algonquin-pet-store-all-in-one.yaml` file directory.
+   - Run the following command to delete all resources defined in the YAML file.
+      ```
+      kubectl apply -f algonquin-pet-store-all-in-one.yaml
+      ``` 
+7. Clean Up Azure Resources:
+   - Delete the Primary Resource Group (AlgonquinPetStoreRG)
+   - Delete the Managed Cluster Resource Group (MC_AlgonquinPetStoreRG_AlgonquinPetStoreRG_canadacentral)
+   - Delete the Monitoring Resource Group (MA_defaultazuremonitorworkspace-cca_canadacentral_managed)
+   - Delete the Network Watcher Resource Group (NetworkWatcherRG):
+
+
+
 
 
 
