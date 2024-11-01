@@ -79,6 +79,7 @@ In this lab, you’ll gain hands-on experience deploying microservices to AKS, c
         - Set **node size** to `D2as_v4`.
         - **Scale method**: `Manual`
         - **Node count**: `2`
+        - Comment: Accounttan dolayi 1 olarak sec subscription duzeldigi zaman 2 olarak create olabilir
         - Click `add`
    - Click **Review + Create**, and then **Create**. The deployment will take a few minutes.
 
